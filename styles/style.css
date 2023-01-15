@@ -1,0 +1,247 @@
+
+/* -----------Universal style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* -----------------------------------------
+ ---------banner-top style--------*/
+.banner{
+   background-color: #fff4e7;
+   
+}
+ .banner-top{
+   margin: 0px 200px 30px;
+   padding: 40px;
+    
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-title{
+   font-size: 30px;
+   font-weight: 700px;
+ }
+ nav ul{
+    display: flex;
+ 
+ }
+ nav li{
+    list-style: none;
+    color: #424242;
+    margin-right: 20px;
+ }
+ /* -------------------
+ ---------banner-midle------- */
+ .banner-midle{
+   text-align: center;
+   margin-top: 80px;
+ }
+ .header-title{
+ font-size: 50px;
+ font-weight: 700px;
+ padding-bottom: 25px;
+ line-height: 1.2em;
+ }
+ .header-description{
+color: #727272;
+font-size: 16px;
+font-weight: 400px;
+ }
+ 
+ .header-btn{
+   text-align: center;
+   padding: 25px;
+ }
+ button{
+   color: #ffffff;
+   background-color: #ff900e;
+  padding:15px 18px;
+  border: 0px;
+  border-radius: 5px;
+ }
+ 
+
+ .banner-image img{
+width: 80%;
+margin-left: 160px;
+margin-bottom: 30px;
+ }
+/* -----------------------
+---------quick-list--------- */
+.quick-list{
+  display: flex;
+margin-top: 50px;
+justify-content: space-evenly;
+
+}
+.quick-list-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.quick-list-images img{
+  height: 230px;
+  width: 230px;
+}
+
+.quick-list-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.quick-list-title .think{
+color: #727272;
+font-weight: 500px;
+font-size: 25px;
+}
+.quick-list-title .bold{
+  padding: 10px;
+  font-weight: 700px;
+  font-size: 25px;
+}
+.quick-list-title .primary{
+color: #FF900E;
+font-weight: 500px;
+  font-size: 25px;
+}
+.quick-list-content .header-btn{
+  text-align: left;
+  padding: 0px;
+}
+.quick-list-title p{
+  color: #727272;
+  padding: 22px 0;
+}
+/* ---------------------------
+---------features-------------- */
+.features{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-left: 150px;
+  margin-top: 80px;
+}
+.features-content{
+  width: 410px;
+}
+.features-content-title{
+  font-weight: 700px;
+  font-size: 20px;
+  list-style: .80rem;
+  border-left: 3px solid #ff900e ;
+  margin-bottom: 15px; 
+}
+.features-content-description{
+color: #727272;
+font-size: 13px;
+margin-bottom: 20px;
+}
+.featues-content-box{
+  padding: 18px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+margin-bottom: 10px;
+}
+.featues-content-box h4{
+font-size: 18px;
+font-weight: 600px;
+margin-bottom: 7px;
+}
+.featues-content-box p{
+font-size: 13px;
+color: #727272;
+}
+.features-img img{
+  width: 480px;
+  height: 620px;
+}
+/* ------------------------------
+-------testimonial-------------- */
+.testimonial{
+margin: 80px 150px;
+}
+.testimonial-content h2{
+font-size: 25px;
+font-weight: 700px;
+}
+.testimonial-content p{
+font-size: 14px;
+color: #727272;
+padding: 10px 0;
+}
+.article-group{
+  width: 920px;
+  margin: 0 auto;
+display: flex;
+justify-content: center;
+gap: 80px;
+  
+
+}
+.article{
+  border: 1px solid #FF900E;
+ width: 165px;
+ height: 165px; 
+ text-align: center;
+  
+}
+.article img{
+  padding-top: 20px;
+  font-size: 30px;
+}
+.article h1{
+font-size: 30px;
+color: #424242;
+margin: 5px;
+}
+.article p{
+font-size: 14px;
+margin: 0;
+color: #424242;
+}
+.our-sponsore{
+  width: 920px;
+  margin: 0 auto;
+}
+.our-sponsore-content{
+text-align: center;
+}
+.our-sponsore-title h1{
+font-size: 30px;
+font-weight: 700px;
+}
+.our-sponsore-description{
+color: #424242;
+}
+.our-sponsore-images{
+  display: flex;
+  gap: 50px;
+  margin-left: 30px;
+  margin-top: 36px;
+}
+.sponsore-image img{
+  width: 130px;
+  height: 50px;
+}
+/* ---------------------------
+---------footer---------------- */
+.footer{
+  color: #424242;
+  text-align: center;
+  background-color:  #FFF4E7;
+  width: 920px;
+  margin: 0 auto;
+  padding: 12px 0;
+  margin-top: 80px;
+}
+
+
+
+
+       
